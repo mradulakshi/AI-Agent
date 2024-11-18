@@ -118,7 +118,7 @@ def fetch_google_sheet(sheet_url):
 
 # Web search using SerpAPI
 def perform_web_search(query):
-    api_key ="c86d41704a25785b2c369e9447a78449447e86943e51820152c8d3916f21aa6f"  # Store your API key in secrets.toml
+    api_key =""  # Store your API key
     params = {
         "engine": "google",
         "q": query,
